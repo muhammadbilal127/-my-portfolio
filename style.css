@@ -1,0 +1,485 @@
+ body {
+   background-color:rgb(0, 0, 33);
+    color: rgb(192, 204, 223);
+    font-family: "Poppins", serif;
+    margin: 0px;
+    padding: 0px;
+ }
+.container{
+max-width: 1250px;
+margin: 0px auto;
+}
+
+.header{
+  max-width: 1250px;
+  margin: 0px auto;  
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    background-color:rgb(18, 18, 62);
+}
+
+nav ul{
+display: flex;
+justify-content: center;
+}
+
+nav ul li{
+    list-style: none;
+    margin: 0 23px;
+}
+
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+
+nav ul li a:hover{
+    color: #2DAFF3;
+    font-size: 1.02rem;
+    border-bottom: 1px solid #2DAFF3;;
+}
+
+.left{
+    font-size: 30px;
+}
+
+.firstsection{
+    display: flex;
+    justify-content: space-around;
+    margin: 80px 0;
+    align-items: center;
+}
+
+.firstsection >div{
+    width: 30%;
+}
+
+.leftsection{
+    font-size: 37px;
+}
+
+
+button{
+    margin-top: 40px;
+width: 140px;
+height:50px;
+background-color:  darkblue;
+border: 1px solid darkblue;
+border-radius: 15px;
+}
+
+button:hover{
+    border: 2px solid  #2DAFF3; 
+    font-size: 14px;
+}
+.btn a{
+text-decoration: none;
+    color: white;
+}
+
+.rightsection img{
+  width: 100%;
+  height: 120%;
+}
+
+.purple{
+    color:rgb(170, 107, 228);
+}
+
+.hr-1{
+    border: 0px;
+    background-color: #9c97f1;
+    height: 1.2px;
+    margin: 40px 84px;
+}
+
+.secondsection{
+    display: flex;
+    justify-content:space-between;
+    margin:160px 120px;
+    align-items: center;
+}
+
+.h1-1{
+    font-size: 40px;
+    font-weight: 400;
+    color: rgb(192, 204, 223);
+}
+.h2-1{
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 80px;
+    color: #2DAFF3;
+    margin-bottom: 20px;
+}
+
+.blue{
+    color: #2DAFF3;
+}
+
+.p-1{
+    color: rgb(192, 204, 223);
+}
+.p-2{
+    margin-top: 20px;
+    color: rgb(192, 204, 223);
+}
+
+
+
+.p-3{
+    margin-top: 20px;
+    color: rgb(192, 204, 223);
+}
+
+.dark{
+    font-weight: 500;
+    color: #2DAFF3;
+}
+
+
+
+.p-4{
+    margin-top: 20px;
+    color: rgb(192, 204, 223);
+}
+
+.ul-1 li{
+    list-style-type: none;
+    margin-top: 5px;
+    margin-left: 25px;
+    color: rgb(192, 204, 223);
+
+}
+.ul-1 li:hover{
+    color: #2DAFF3;
+}
+
+
+.arrow{
+    position: relative;
+    top: 35px;
+    color: blue;
+}
+
+
+.div-1{
+    display: flex;
+}
+
+.picture{
+margin-right: 100px;
+border: 7px solid  #2DAFF3;
+
+}
+
+.h2-2{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 400;
+    margin-top: 15%;
+    color: rgb(192, 204, 223);
+}
+
+
+.thirdsection{
+    display: flex;
+    justify-content:space-around;
+   
+}
+
+.development{
+    margin-top: 80px;
+    margin-right: 140px;
+    color: rgb(192, 204, 223);
+
+}
+
+.h1-2{
+    font-size: 30px;
+    font-weight: 300;
+
+}
+
+.icon{
+    margin: 10px 0px 20px 10px;
+
+
+}
+
+.icon-1{
+    margin: 10px 0px 20px 10px;
+    position: relative;
+    bottom: 40px;
+    left: 10px;
+
+}
+
+.p-5{
+    position: relative;
+    bottom: 60px;
+    left: 60px;
+    font-size: 20px;
+
+}
+
+.p-6{
+    position: relative;
+    bottom: 100px;
+    left: 60px;
+    font-size: 20px;
+
+}
+
+
+.p-5:hover{
+   color:  #2DAFF3;
+   font-size: 21px;
+}
+
+
+.p-6:hover{
+    color:  #2DAFF3;
+    font-size: 20.09px;
+ }
+
+ 
+.icon-2{
+    margin: 10px 0px 20px 10px;
+    position: relative;
+    bottom: 70px;
+    left: 10px;
+
+}
+
+
+.p-7{
+    position: relative;
+    bottom: 130px;
+    left: 60px;
+    font-size: 20.09px;
+}
+
+
+.p-7:hover{
+    color:  #2DAFF3;
+    font-size: 20.09px;
+ }
+ 
+.hr-2{
+    border: 0px;
+    background-color: #9c97f1;
+    height: 1.2px;
+    margin: 15% 84px;
+}
+
+
+.foodpanda-image{
+    background-color:rgb(0, 0, 33);
+    width: 350px;
+    border-radius: 10px;
+    margin-left: 20px;
+    margin-top: 20px;
+
+} 
+.project-one{
+    border: 1px solid darkblue;
+      width: 400px;
+      height: 300px;
+       margin-left: 200px;
+       margin-top:100px ;
+    border-radius: 10px;
+}
+ 
+.project-one:hover{
+ border: 5px solid  #2DAFF3;
+} 
+
+.h1-3{
+    text-align: center;
+    font-weight: 400;
+    font-size: 30px;
+    margin-top: 300px;
+}
+
+.description{
+    width: 40%;
+    border: 1px solid rgb(179, 184, 189);
+    height: 60%;
+    background-color:rgb(54, 52, 52);
+    margin-left: 350px;
+    color: white;
+    position: relative;
+    bottom:80px;
+    border-radius: 10px;
+    z-index: 4px;
+}
+
+.description:hover{
+    border: 3px solid #2DAFF3;
+}
+ 
+.project-two{
+    border: 1px solid darkblue;
+      width: 400px;
+      height: 300px;
+       margin-left: 200px;
+       margin-top:70px ;
+    border-radius: 10px;
+}
+
+
+.Expertizo-image{
+    width: 400px;
+    border-radius: 10px;
+}
+
+.project-two:hover{
+border: 5px solid  #2DAFF3;
+} 
+       
+
+
+.project-three{
+    border: 1px solid darkblue;
+      width: 400px;
+      height: 300px;
+       margin-left: 200px;
+       margin-top:100px ;
+    border-radius: 10px;
+}
+
+
+.Expertizo-image{
+    width: 400px;
+    border-radius: 10px;
+}
+
+
+
+.saylani-login-page{
+    background-color:rgb(0, 0, 33);
+    width: 350px;
+    border-radius: 10px;
+    margin-left: 20px;
+    margin-top: 60px;
+
+
+} 
+.project-three:hover{
+    border: 5px solid  #2DAFF3;
+} 
+
+.h1-4{
+    font-weight: 300;
+    text-align: center;
+    font-size: 40px;
+}
+
+.last-div{
+    display: flex;
+    margin-bottom: 100px;
+}
+
+.address{
+width: 60px;
+color:blue;
+margin-top: 40px;
+margin-bottom: 20px;
+margin-left:30px ;
+}
+
+.location{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10%;
+
+}
+
+.h2-3{
+ font-size: 20px;
+ font-weight: 350;
+}
+
+.p-8{
+    color: gray;
+}
+
+.contact{
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+}
+
+.contact-icon{
+ color: blue;
+ width: 60px;
+ margin-top: 40px;
+margin-bottom: 20px;
+}
+
+.p-9 a{
+    color: gray;
+    text-decoration: none;
+}
+
+.email{
+    display: flex;
+    flex-direction: column;
+    margin-left: 140px;
+
+}
+
+.arrow-icon{
+    color: blue;
+    width: 60px;
+    margin-top: 40px;
+   margin-bottom: 20px;
+   }
+  
+ .resume-icon{
+ 
+    color: blue;
+    width: 60px;
+    margin-top: 40px;
+   margin-bottom: 20px;
+   }
+
+   
+.resume{
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+}
+
+.link{
+    margin-left: 35%;
+    display: flex;
+    gap: 30px;
+     margin-bottom: 150px;
+}
+
+.link a{
+    color:#2DAFF3;
+}
+.link a:hover{
+    color: white;
+
+}
+
+.p-11{
+    margin-left: 25%;
+    margin-bottom: 15%;
+}
