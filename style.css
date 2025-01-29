@@ -643,3 +643,14 @@ width: 70%;
     margin-left:30px ;
     }
 }
+
+
+@media(max-width: 600px) {
+   
+   
+       body {
+           max-width: 600px;
+       }
+   
+   
+   }
